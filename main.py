@@ -1,5 +1,6 @@
 from aiogram import executor
-from handlers import dp                   # импортируем из хендлерс, а не из конфиг!
+from handlers import dp
+# "Aiogram 2.24"
 
 
 async def on_startup(_):
